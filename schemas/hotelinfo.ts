@@ -27,6 +27,14 @@ export default defineType({
                 hotspot: true,
             },
         }),
+        {
+            title: 'Poster',
+            name: 'poster',
+            type: 'image',
+            options: {
+                hotspot: true // <-- Defaults to false
+            },
+        },
         defineField({
             name: 'publishedAt',
             title: 'Published at',
